@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int num, sum=0, media, a;
+    cout<<"cuantos datos ingresar";
+    cin>>a;
+    for(int i=1;i<=a;i++)
+    {
+        cout<<"di numero ";
+        cin>>num;
+        sum=sum+num;
+    }
+     media=sum/a;
+    cout<<"media es "<<media<<endl;
+    return 0;
+}
