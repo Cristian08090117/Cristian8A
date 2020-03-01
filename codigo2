@@ -20,5 +20,5 @@ int main()
 
     }
     cout<< " el mumero mayor es "<<mayor<<endl;
-    cout<<"el numero negativo es"<<negativo<<endl;
+    cout<<"el numero negativo es"<<negativo<<endl; 
 }
